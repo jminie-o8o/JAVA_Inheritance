@@ -7,7 +7,6 @@ class Cal{
 	public int sum() {
 		return this.v1+v2;
 	}
-		
 }
 
 //Cal 클래스를 확장해서 Cal클래스가 가지고 있는 모든 변수와 메소드를 상속받는 Cal3
@@ -28,8 +27,5 @@ public class InheritanceApp {
 		Cal3 c3 = new Cal3(2,1); //우선 super인 부모 클래스인 Cal이 실행되고 그 다음에 Cal3가 실행된다.
 		System.out.println(c3.sum());
 		System.out.println(c3.minus());
-
-
 	}
-
 }
